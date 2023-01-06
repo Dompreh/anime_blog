@@ -1,13 +1,9 @@
 {
   "private": true,
-  "engines": {
-    "node": ">=14.0"
-  },
-  "engineStrict": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start --openssl-legacy-provider"
   },
   "dependencies": {
     "graphql": "^16.6.0",
