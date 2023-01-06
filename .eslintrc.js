@@ -23,14 +23,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "eol-last": 0,
     "max-len": [2, 300],
-    "@typescript-eslint/quotes": [
-        "error",
-        "single",
-        {
-          "avoidEscape": true,
-          "allowTemplateLiterals": true
-        }
-      ],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "no-multiple-empty-lines": [
       "error",
       {
