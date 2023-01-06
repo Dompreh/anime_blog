@@ -13,7 +13,6 @@ const Author = ({ author }) => {
           height="100"
           className="align-middle rounded-full"
         />
-        
       </div>
       <h3 className="text-white  my-4 text-xl font-bold">{author.name}</h3>
       <p className="text-white text-lg ">{author.bio}</p>

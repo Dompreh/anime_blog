@@ -6,13 +6,13 @@ const PostDetail = ({ post }) => {
     let modifiedText = text;
     if (obj) {
       if (obj.bold) {
-        modifiedText = (<b key={index}>{text}</b>);
+        modifiedText = <b key={index}>{text}</b>;
       }
       if (obj.italic) {
-        modifiedText = (<em key={index}>{text}</em>);
+        modifiedText = <em key={index}>{text}</em>;
       }
       if (obj.underline) {
-        modifiedText =( <u key={index}>{text}</u>);
+        modifiedText = <u key={index}>{text}</u>;
       }
     }
 
@@ -106,7 +106,7 @@ const PostDetail = ({ post }) => {
                 getContentFragment(itemIndex, item.text, item)
               );
 
-              return getContentFragment(index, children,typeObj, typeObj.type);
+              return getContentFragment(index, children, typeObj, typeObj.type);
             })}
           </div>
         </div>
